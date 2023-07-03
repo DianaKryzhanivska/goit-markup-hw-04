@@ -210,13 +210,16 @@ img {
 }
 
 .footer-socials {
-  display: flex;
   gap: 16px;
 }
 
 .footer-socials .socials-link:hover,
 .footer-socials .socials-link:focus {
   background-color: #31d0aa;
+}
+
+.footer .socials-list {
+  display: flex;
 }
 
 .footer-socials .section-subtitle {
