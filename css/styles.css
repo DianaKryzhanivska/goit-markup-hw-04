@@ -214,8 +214,9 @@ img {
   gap: 16px;
 }
 
-.footer-socials .socials-link {
-  background-color: var(--icon-bg-active-color);
+.footer-socials .socials-link:hover,
+.footer-socials .socials-link:focus {
+  background-color: #31d0aa;
 }
 
 .footer-socials .section-subtitle {
