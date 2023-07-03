@@ -7,6 +7,7 @@
   --border-color: #e7e9fc;
   --secondary-icons-color: #404bbf;
   --icon-customers-color: #8e8f99;
+  --icon-bg-active-color: #31d0aa;
 }
 
 body {
@@ -211,6 +212,10 @@ img {
 .footer-socials {
   display: flex;
   gap: 16px;
+}
+
+.footer-socials .socials-link {
+  background-color: var(--icon-bg-active-color);
 }
 
 .footer-socials .section-subtitle {
